@@ -1,7 +1,7 @@
 {
   "name": "armor-chromedriver",
   "description": "Node.js wrapper around chromedriver.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ait-software",
   "license": "Apache-2.0",
   "engines": {
@@ -72,6 +72,7 @@
     "@types/lodash": "^4.14.191",
     "@types/mocha": "^10.0.1",
     "@types/node": "^20.4.1",
+    "@types/semver": "^7.5.6",
     "@types/sinon": "^17.0.0",
     "armor-test-helpers": "git+https://ait-software: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@github.com/ait-software/armor-test-helpers.git",
     "chai": "^4.1.2",
