@@ -1,7 +1,7 @@
 {
   "name": "armor-chromedriver",
   "description": "Node.js wrapper around chromedriver.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "ait-software",
   "engines": {
     "node": ">=14",
@@ -35,11 +35,12 @@
   ],
   "types": "./build/lib/index.d.ts",
   "dependencies": {
+    "armor-test-helpers": "*",
     "@xmldom/xmldom": "^0.x",
-    "ait-adb": "git+https://ait-software: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@github.com/ait-software/ait-adb.git",
+    "ait-adb": "*",
     "ait-async": "*",
     "ait-process": "*",
-    "armor-base-driver": "git+https://ait-software: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@github.com/ait-software/armor-base-driver.git",
+    "armor-base-driver": "*",
     "armor-support": "*",
     "axios": "^1.x",
     "bluebird": "^3.5.1",
@@ -72,7 +73,6 @@
     "@types/node": "^20.4.1",
     "@types/semver": "^7.5.6",
     "@types/sinon": "^17.0.0",
-    "armor-test-helpers": "git+https://ait-software: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@github.com/ait-software/armor-test-helpers.git",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "conventional-changelog-conventionalcommits": "^7.0.1",

@@ -22,5 +22,5 @@
     "checkJs": true,
     "lib": ["es2020", "dom"]
   },
-  "include": ["lib"]
+  "include": ["lib", "./config/mapping.json"]
 }

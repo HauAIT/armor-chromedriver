@@ -5,3 +5,5 @@ chromedriver
 coverage
 package-lock.json*
 .vscode
+
+.idea/
